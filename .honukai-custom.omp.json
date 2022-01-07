@@ -1,0 +1,136 @@
+{
+    "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
+    "blocks": [
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "os",
+            "style": "plain",
+            "foreground": "#26C6DA",
+            "properties": {
+              "postfix": " | ",
+              "windows": "\uF17A",
+              "ubuntu": "\uf31b",
+              "display_distro_name": true,
+              "prefix": ""
+            }
+          },
+          {
+            "type": "session",
+            "style": "plain",
+            "foreground": "#bebebe",
+            "properties": {
+              "prefix": "",
+              "user_info_separator": " <#bebebe>@</> ",
+              "user_color": "#0377C8",
+              "host_color": "#4A9207",
+              "ssh_icon": "\uE0C7 "
+            }
+          },
+          {
+            "type": "path",
+            "style": "plain",
+            "foreground": "#0973C0",
+            "properties": {
+              "folder_separator_icon": " \uE0B1 ",
+              "style": "agnoster"
+            }
+          },
+          {
+            "type": "git",
+            "style": "plain",
+            "foreground": "#B8B80A",
+            "properties": {
+              "prefix": "<#bebebe>on git:</>"
+            }
+          }
+        ]
+      },
+      {
+        "type": "prompt",
+        "alignment": "right",
+        "segments": [
+          {
+            "type": "executiontime",
+            "style": "plain",
+            "foreground": "#e00b0b",
+            "properties": {
+              "threshold": 500,
+              "style": "austin"
+            }
+          },
+          {
+            "type": "node",
+            "style": "plain",
+            "foreground": "#CC4B16",
+            "properties": {
+              "prefix": " \uE718 "
+            }
+          },
+          {
+            "type": "python",
+            "style": "plain",
+            "foreground": "#CC4B16",
+            "properties": {
+              "prefix": " \uE235 ",
+              "display_mode" : "context"
+            }
+          },
+          {
+            "type": "time",
+            "style": "plain",
+            "foreground": "#bebebe",
+            "properties": {
+              "prefix": "[",
+              "postfix": "]",
+              "time_format": "03:04:05 PM"
+            }
+          }
+        ]
+      },
+      {
+        "type": "newline"
+      },
+      {
+        "type": "prompt",
+        "alignment": "left",
+        "segments": [
+          {
+            "type": "shell",
+            "style": "plain",
+            "foreground": "#929dff",
+            "properties": {
+              "prefix": "\uFCB5 "
+            }
+          },
+          {
+            "type": "root",
+            "style": "plain",
+            "foreground": "#CECE04",
+            "properties": {
+              "prefix": "",
+              "root_icon": "\uF0E7"
+            }
+          },
+          {
+            "type": "exit",
+            "style": "plain",
+            "foreground": "#CB4B16"
+          },
+          {
+            "type": "text",
+            "style": "plain",
+            "foreground": "#CC4B16",
+            "properties": {
+              "prefix": "",
+              "text": "\u279C"
+            }
+          }
+        ]
+      }
+    ],
+    "final_space": true
+  }
+  
